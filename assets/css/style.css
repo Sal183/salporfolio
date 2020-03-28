@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DEECFB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Section */
+
+header {
+    padding: 20px 50px 30px 0;
+    background-color: #3C3F42;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #3C3F42;
+    margin: 0;
+}
+
+.title-square {
+    padding: 20px 18px 18px 70px;
+    background-color: #2A8895;
+}
+
+header nav {
+    margin: 30px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #62D5E5;
+    font-size: 20px;
+    margin: 0 25px;
+    font-weight: lighter;
+    font-size: 1.05vw;
+}
+
+/* Hero Section */
+
+.hero {
+    background-image: url(../images/heroimg.jpg);
+    height: 340px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2A8895;
+    padding: 15px 15px;
+}
+
+/* About Section */
+
+.about {
+    display: inline-flex;
+}
+
+.about h1 {
+    font-size: 70px;
+    color: #2A8895;
+    border-right: 3px solid;
+    display: inline-block;
+    padding-right: 20px;
+    text-align: center;
+    margin: 100px;
+}
+
+.about p {
+    font-size: 25px;
+    padding: 60px;
+    margin: 30px 10px;
+    text-align: left;
+    color: #2A8895;
+}
+
+/* Works Section */
+
+.workgrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.workgridtitle {
+    font-size: 70px;
+    color: #2A8895;
+    border-right: 3px solid;
+    display: inline-block;
+    padding-right: 50px;
+    text-align: center;
+    margin: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px
+}
+
+.grid-item {
+    border: #2A8895;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    text-shadow:0 0 10px rgba(0, 0, 0, .25);
+    border-radius: 25px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item1 {
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+    background-image: url(../images/runbuddyimg.jpg);
+    background-size: 800px;
+    background-position: center;
+}
+
+.item2 {
+    background-image: url(../images/ledwallimg.jpg);
+    
+}
+
+.item3 {
+    background-image: url(../images/calculatorimg.jpg);
+    flex-wrap: wrap;
+}
+
+.item4 {
+    background-image: url(../images/pastelpuzzlesimg.jpg);
+    flex-wrap: wrap;
+}
+
+.item5 {
+    background-image: url(../images/surfreportimg.jpg);
+    flex-wrap: wrap;
+}
+
+/* Animation CSS Section */
+.grid-container a:hover {
+    color: white;
+    opacity: 80%;
+    background: rgba(0, 0, 250, 0.9);
+}
+
+
+/* Resume Section */
+
+
+
+
+
+
+/* Footer Section */
+
+footer {
+    background: #3C3F42;
+    width: 100%;
+    padding: 30px 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: #62D5E5;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 60%;
+}
+
+footer a {
+    font-size: 18px;
+    padding: 20px;
+    color: #2A8895;
+}
+
+
+
+
