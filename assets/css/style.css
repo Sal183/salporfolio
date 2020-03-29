@@ -90,6 +90,13 @@ header nav ul li a {
     margin: 100px;
 }
 
+.aboutpic img {
+    border-radius: 60px;
+    width: 195px;
+    margin-top: 50px;
+    border: 3px solid #2A8895;
+}
+
 .about p {
     font-size: 25px;
     padding: 60px;
@@ -176,6 +183,27 @@ header nav ul li a {
 
 /* Resume Section */
 
+.resumelisting {
+    display: inline-flex;
+}
+
+.resumetitle {
+    font-size: 70px;
+    color: #2A8895;
+    border-right: 3px solid;
+    display: inline-block;
+    padding-right: 40px;
+    text-align: center;
+    margin: 100px;
+}
+
+.resumeinfo {
+    font-size: 27px;
+    color: #2A8895;
+    margin: 100px 100px;
+    text-align: center;
+    padding: 0 100px 100px 0;
+}
 
 
 
@@ -204,6 +232,18 @@ footer a {
     color: #2A8895;
 }
 
+/* Media Section */
 
+@media screen and (max-width:980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+}
 
 
