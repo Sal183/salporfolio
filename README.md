@@ -10,3 +10,5 @@ Below are the links to the Website and the Github repository:<br>
 <a href="https://sal183.github.io/salportfolio/">Deployed Live URL</a>
 
 <a href="https://github.com/Sal183/salportfolio/">Github Repository</a>
+
+<img src="https://github.com/Sal183/salportfolio/blob/master/SalPortfolioWebsiteScreenshot.jpg?raw=true" alt="Sal's Portfolio Website">
