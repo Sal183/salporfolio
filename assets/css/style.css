@@ -105,7 +105,7 @@ header nav ul li a {
     color: #2A8895;
 }
 
-/* Works Section */
+/* Works and Grid Section */
 
 .workgrid {
     display: flex;
@@ -127,7 +127,7 @@ header nav ul li a {
     display: grid;
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: repeat(3, 200px);
-    grid-gap: 20px
+    grid-gap: 10px;
 }
 
 .grid-item {
@@ -180,7 +180,6 @@ header nav ul li a {
     background: rgba(0, 0, 250, 0.9);
 }
 
-
 /* Resume Section */
 
 .resumelisting {
@@ -204,10 +203,6 @@ header nav ul li a {
     text-align: center;
     padding: 0 100px 100px 0;
 }
-
-
-
-
 
 /* Footer Section */
 
